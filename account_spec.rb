@@ -20,6 +20,7 @@ describe Account do
     end
   end
 
+
   describe "#transactions" do
 
     context "default starting balance" do
