@@ -27,7 +27,6 @@
   def withdraw!(amount)
     amount = -amount if amount > 0
     add_transaction(amount)
-
     balance
   end
 
